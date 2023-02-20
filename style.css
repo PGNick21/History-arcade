@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 140px;
+    margin-left: 220px;
+    width: 1px;
+ }
+
+ h2{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 275px;
+    margin-right: 40px;
+ }
+
+.border{
+    margin-top: 130px;
+    margin-left: 220px;
+    margin-right: 200px;
+    display: flex;
+    border-radius: 500px;
+    background: #46caf9;
+    box-shadow: 33px 33px 69px #378696,
+                -33px -33px 69px #0000; 
+    min-width: 15px;
+    min-height: 425px;
+}
+
+.img1{
+    margin-top: 65px;
+    margin-left: 180px;
+    display: flex;
+}
