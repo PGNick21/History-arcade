@@ -1,20 +1,23 @@
-import React, { useState, useEffect } from "react";
-import { Outlet, useHistory} from "react-router-dom";
+import React from "react";
+import { Outlet,Link} from "react-router-dom";
 import "./style/Arcade.css";
-import Game from "../assets/imgs/gif1.gif";
+import Game from "../assets/imgs/gif7.gif";
 
 export const Arcade =()=>{
     return(
         <>
+            
             <div className="body-container">
                 <div className="main-container">
                     <div className="container-0">
                         <div className="cont-1">
-                            <div className="title">
+                            <div className="titulo">
                                 <h1>HISTORY ARCADE</h1>
                             </div>
                             <div className="botom">
-                                <h2>Enter</h2>
+                                <Link to= {'./catalogo-arcade.jsx'}>
+                                    <h2 className="link">Enter</h2>
+                                </Link>
                             </div>
                         </div>
                         <div className="cont-2">

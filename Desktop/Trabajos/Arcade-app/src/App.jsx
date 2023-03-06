@@ -6,7 +6,7 @@ function App() {
     <>
       <Routes>
           <Route path="/" element={<Arcade/>} />
-          <Route path="/Catalogo" element={<Catalogo />} />
+          <Route path="/catalogo-arcade.jsx" element={<Catalogo/>} />
         </Routes>
 
     </>
