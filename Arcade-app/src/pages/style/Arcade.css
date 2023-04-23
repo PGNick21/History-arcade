@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.body-container  *{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.body-container {
+    background-color: #1C1C2C;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main-container{
+    position: relative;
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background: #1C1C2C;
+    box-shadow: 33px 33px 69px #9bf2ea; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+.container-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-1{
+    color: white;
+    width: 50%;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+}
+
+.cont-1 .titulo{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.cont-1 .titulo h1{
+    font-size: 50px;
+    width: 10%;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.cont-1 .botom .link{
+    text-decoration: none;
+}
+.cont-1 .botom{
+    display: flex;
+    width: 45%;
+    border-radius:10px ;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.24s;
+    position: relative;
+    left: 60%;
+    top: -5%;
+    transform: translate(-35%, 5%);
+    user-select: none;
+    transition: .01s ease-in;
+
+}
+
+.titulo {
+    margin-top: 130px;
+    left: 100px;
+    display: flex;
+    position: relative;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botom:hover, .botom:hover>*{
+    background-color: #9bf2ea;
+    color: #1C1C2C;
+    transition: .2s ease-in;
+}
+
+
+.cont-2{
+    left: 80%;
+    width: 50%;
+    display: block;
+    border-radius: 20px;
+    }
+
+.cont-2 img{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+    left: -3%;
+    top: 1%;
+    transform: translate(1%,5%);
+    z-index: -99;
+}
+
